@@ -1,9 +1,73 @@
-html {
-  box-sizing: border-box;
+@import "vars";
+@import "global";
+
+.header {
+	&__inner {
+		height: 90px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+	}
+
+	&__logo {
+	}
+
+	&__text {
+		margin-right: 60px;
+		color: #546e7a;
+		a {
+			color: #546e7a;
+		}
+		margin-left: auto;
+		font-size: 15px;
+		line-height: 24px;
+		span {
+			color: #e74c3c;
+		}
+	}
+
+	&__buttons {
+	}
+
+	&__btn {
+		padding: 4px;
+		width: 72px;
+		font-size: 12px;
+		line-height: 24px;
+		color: #fff;
+		border-radius: 3px;
+		text-align: center;
+	}
+
+	&__btn-login {
+		background-color: #8bc34a;
+	}
+
+	&__btn-register {
+		background-color: #e74c3c;
+		margin-left: 7px;
+	}
+
+	&__menu {
+		height: 60px;
+		background-color: #263238;
+	}
 }
 
-*,
-*::before,
-*::after {
-  box-sizing: inherit;
+.menu {
+	&__list {
+		display: flex;
+		padding-top: 15px;
+		a {
+			color: #e3e5e6;
+			font-size: 14px;
+			font-weight: 500;
+			line-height: 30px;
+		}
+		li + li {
+			margin-left: 35px;
+		}
+	}
+}
+.bascet {
 }
