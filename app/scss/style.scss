@@ -127,3 +127,152 @@
 		}
 	}
 }
+
+// section products ============================================================================
+
+.products {
+	padding: 115px 0;
+	background-color: #f4f6f5;
+
+	&__inner {
+	}
+
+	&__inner-btn {
+		color: #263238;
+		font-size: 14px;
+		font-weight: 500;
+		line-height: 60px;
+		text-align: center;
+		margin-top: 40px;
+		margin-bottom: 60px;
+		button {
+			background-color: #fff;
+			border: none;
+			padding: 13px 21px;
+			cursor: pointer;
+			& + button {
+				margin-left: 6px;
+			}
+		}
+	}
+
+	.mixitup-control-active {
+		box-shadow: 0 2px 5px rgba(202, 215, 228, 0.75);
+		background-color: #e74c3c;
+		outline: none;
+	}
+
+	&__inner-body {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+		margin-bottom: 80px;
+	}
+
+	&__item {
+		max-width: 442px;
+		width: 100%;
+		box-shadow: 0 1px 2px rgba(205, 214, 222, 0.75);
+		background-color: #ffffff;
+		margin-bottom: 30px;
+	}
+
+	&__item-img {
+		min-height: 250px;
+		width: 100%;
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+
+	&__item-content {
+		min-height: 90px;
+		display: flex;
+		justify-content: space-between;
+		padding: 30px 30px 15px;
+		border-bottom: 1px solid #e7ecf2;
+	}
+
+	&__item-name {
+		a {
+			display: block;
+			font-weight: 500;
+		}
+	}
+
+	&__item-title {
+		font-size: 18px;
+		color: #263238;
+		margin-bottom: 10px;
+	}
+
+	&__item-category {
+		color: #8bc34a;
+		font-size: 14px;
+	}
+
+	&__item-price {
+		color: #263238;
+		font-size: 20px;
+		font-weight: 700;
+	}
+
+	&__item-info {
+		min-height: 68px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin: 0 32px;
+	}
+
+	&__item-autor {
+		max-width: 270px;
+		padding: 15px 5px 15px 0;
+		display: flex;
+		align-items: center;
+		span {
+			color: #546e7a;
+			font-size: 14px;
+			font-weight: 500;
+			margin-left: 12px;
+		}
+	}
+
+	&__item-avatar {
+		img {
+			display: block;
+			width: 30px;
+			height: 30px;
+			object-fit: cover;
+			border-radius: 50%;
+		}
+	}
+
+	&__item-star {
+		color: #b0bec5;
+		font-size: 12px;
+	}
+
+	&__bottom-btn {
+		color: #263238;
+		font-size: 16px;
+		text-align: center;
+
+		button {
+			padding: 15px 30px;
+			box-shadow: 0 1px 3px rgba(204, 216, 228, 0.75);
+			background-color: #ffffff;
+			border: none;
+			cursor: pointer;
+			margin: 0 5px;
+		}
+	}
+}
+
+.title {
+	color: #263238;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 60px;
+	text-align: center;
+}
