@@ -313,3 +313,84 @@
 		}
 	}
 }
+
+// section advantages ============================================================================
+
+.advantages {
+	background-color: #263238;
+	padding: 120px 0;
+	&__title {
+		color: #ffffff;
+	}
+
+	&__inner {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	&__inner-itaem {
+		max-width: 370px;
+		text-align: center;
+		padding: 0 5px;
+		&:hover {
+			g {
+				fill: #fff;
+			}
+			svg {
+				fill: #fff;
+			}
+			.advantages__inner-img {
+				background-color: #8bc34a;
+			}
+			.advantages__inner-title {
+				color: #8bc34a;
+			}
+		}
+	}
+
+	&__inner-img {
+		width: 113px;
+		height: 113px;
+		border-radius: 50%;
+		background-color: #fff;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 0px auto;
+		margin-bottom: 33px;
+	}
+
+	&__inner-title {
+		color: #ffffff;
+		font-size: 24px;
+		font-weight: 500;
+		margin-bottom: 26px;
+	}
+
+	&__inner-text {
+		color: #b0bec5;
+		font-size: 15px;
+		line-height: 24px;
+	}
+}
+
+.lock {
+	svg {
+		width: 50px;
+		height: 67px;
+	}
+}
+
+.present {
+	svg {
+		width: 71px;
+		height: 73px;
+	}
+}
+
+.heart {
+	svg {
+		width: 86px;
+		height: 86px;
+	}
+}
