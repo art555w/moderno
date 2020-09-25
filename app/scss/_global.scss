@@ -50,3 +50,16 @@ body {
 		padding: 0 15px;
 	}
 }
+.header__btn--off {
+	display: none;
+}
+.header__btn--on {
+	display: block;
+}
+
+.header__burger-list span::before {
+	top: -8px;
+}
+.header__burger-list span::after {
+	top: 8px;
+}

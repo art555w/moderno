@@ -34,8 +34,16 @@ $(function () {
 		$('.icon-th-list').removeClass('active')
 		$('.icon-th-large').addClass('active')
 	})
+	$('.header__burger-list').on('click', function () {
+		$('.header__burger-body').toggleClass('active')
+		$('.header__burger-list').toggleClass('active')
+		$('.header__menu').toggleClass('active')
+		$('.header__inner').toggleClass('active')
+	})
 
 	var mixer = mixitup('.products__inner-body');
 
 
 })
+
+
