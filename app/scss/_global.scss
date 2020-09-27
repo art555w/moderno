@@ -26,6 +26,18 @@ body {
 	font-weight: 400;
 	font-size: 15px;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	padding: 0;
+	margin: 0;
+	font-size: inherit;
+	font-weight: inherit;
+}
 .wrapper {
 	display: flex;
 	flex-direction: column;
@@ -62,4 +74,17 @@ body {
 }
 .header__burger-list span::after {
 	top: 8px;
+}
+
+.angle-right {
+	padding-left: 23px;
+	position: relative;
+	&::before {
+		content: "\f105";
+		position: absolute;
+		left: 0;
+		font-family: "icomoon";
+		color: #8bc34a;
+		font-size: 18px;
+	}
 }
